@@ -1,0 +1,11 @@
+1. Let arr be the sorted array in which we want to search for a target element target.
+
+2. Initialize start as 0 and end as the length of arr.
+
+3. Repeat the following steps until start becomes greater than end:
+	- Calculate the middle index as mid by taking the floor division of the sum of start and end by 2.
+	- If the element at index mid is equal to target, return mid. The target element is found.
+	- If the element at index mid is greater than target, update end to be mid - 1 and go to step 3.
+	- If the element at index mid is less than target, update start to be mid + 1 and go to step 3.
+
+4. If the loop terminates without finding the target element, return -1 to indicate that the element was not found.

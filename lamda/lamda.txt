@@ -1,0 +1,13 @@
+lambda arguments: expression
+
+- lambda: It's a keyword that signifies the creation of a lambda function.
+- arguments: These are the input arguments to the function. They can be optional.
+- expression: It represents the computation or operation the lambda function performs. The result of   the expression is automatically returned.
+
+
+Lambda functions in Python have the following characteristics:
+
+1. They are anonymous: Lambda functions don't require a formal function name. They are created inline    and can be assigned to variables or used directly where they are needed.
+2. They are single-expression functions: Lambda functions are limited to a single expression. They are    not meant for complex logic or multiple statements.
+3. They are lightweight: Lambda functions are typically used for quick operations and don't require the    overhead of a full function definition.
+4. They are often used with higher-order functions: Lambda functions are commonly used in conjunction      with higher-order functions such as map(), filter(), and reduce().
